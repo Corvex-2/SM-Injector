@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Injector.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Bootstrap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Injector.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Bootstrap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile.def" />
+  </ItemGroup>
+</Project>
